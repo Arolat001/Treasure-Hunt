@@ -254,27 +254,6 @@
             text-decoration: underline;
         }
 
-        /* Back button */
-        .back-btn {
-            position: absolute;
-            top: 1.5rem;
-            left: 1.5rem;
-            color: rgba(255,255,255,0.9);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: all 0.3s ease;
-            z-index: 10;
-        }
-
-        .back-btn:hover {
-            color: var(--white);
-            transform: translateX(-3px);
-        }
-
         /* Loading state */
         .auth-btn.loading {
             opacity: 0.8;
@@ -380,18 +359,12 @@
 </head>
 <body>
 
-    <!-- Back to Home Link -->
-    <a href="./mainTreasure.html" class="back-btn" onclick="goHome()">
-        <span>←</span>
-        <span>Back</span>
-    </a>
-
     <!-- ==================== LOGIN PAGE ==================== -->
     <div id="loginPage" class="page active">
         <div class="auth-card">
             <!-- Logo -->
             <div class="logo-container">
-                <div class="logo-icon">💎</div>
+                <div class="logo-icon">☪</div>
                 <span class="logo-text">Treasure Fortune</span>
             </div>
 
